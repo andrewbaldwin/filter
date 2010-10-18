@@ -1,0 +1,18 @@
+This is placeholder text
+
+This is a digital filet implementation of a first order filter with
+transfer function  1/(1+Ts) (characteristic frequency = 1/T)
+
+Initialise with 2 params dt and timeconst
+ dt is interval between samples (clock tick)
+ timeconst is time constant T
+   (both should be in same units [seconds])
+   
+f = Filter::Filter.new(dt,timeconst) #creates new filter instance
+
+r = f.filter(x) # executes next time tick with input signal x
+r[:lowpass]  r[:highpass]  contain filter outputs
+
+
+Filter::testfilt just executes a test routine
+   
