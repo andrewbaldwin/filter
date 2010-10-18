@@ -1,6 +1,6 @@
 This is placeholder text
 
-This is a digital filet implementation of a first order filter with
+This is a digital implementation of a first order filter with
 transfer function  1/(1+Ts) (characteristic frequency = 1/T)
 
 Initialise with 2 params dt and timeconst
